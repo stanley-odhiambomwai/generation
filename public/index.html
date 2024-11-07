@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Representation</title>
+    <link rel="stylesheet" href="./style/output.css">
+
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
+        <h1 class="text-2xl font-semibold text-center mb-6"><u>Generation difference</u></h1>
+        <form id="generationForm" class="space-y-4">
+            <label for="birthYear" class="block text-sm font-medium text-gray-700">Birth Year:</label>
+            <input type="text" id="birthYear" name="birthYear" placeholder="Enter your birth year" class="w-full p-3 border border-gray-300 rounded-md" required>
+            
+            <label for="generation" class="block text-sm font-medium text-gray-700">Generation:</label>
+            <input type="text" id="generation" name="generation" placeholder="Your generation will appear here" class="w-full p-3 border border-gray-300 rounded-md" readonly>
+            
+            <button type="button" id="confirmButton" class="w-full bg-blue-500 text-white p-3 rounded-md hover:bg-yellow-600">Confirm</button>
+        </form>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
